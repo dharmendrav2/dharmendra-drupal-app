@@ -1,0 +1,45 @@
+# Ignore vendor
+vendor
+
+
+# Ignore Eclipse settings
+.buildpath
+.project
+.settings/
+
+.DS_Store
+**/.DS_Store
+
+# Ignore Apache htaccess files created by Drupal
+**/.htaccess
+
+# Ignore Drupal files
+web/core
+web/libraries
+web/themes/contrib
+web/modules/contrib
+
+# Ignore configuration files that may contain sensitive information
+web/sites/*/*settings*.php
+!web/sites/default/default.settings.php
+web/sites/*/*services*.yml
+!web/sites/default/default.services.yml
+web/sites/default
+
+# Ignore paths that may contain user-generated content
+web/sites/*/files
+web/sites/*/public
+web/sites/*/private
+web/sites/*/files-public
+web/sites/*/files-private
+
+# Ignore local configs
+
+# Ignore paths that may contain temporary files
+web/sites/*/translations
+web/sites/*/tmp
+web/sites/*/cache
+web/.eslintignore
+web/.eslintrc.json
+web/.htaccess
+web/.ht.router.php
